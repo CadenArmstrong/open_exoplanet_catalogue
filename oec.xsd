@@ -114,7 +114,7 @@
 	<!-- Number -->
 	<xs:complexType name="number">
 		<xs:simpleContent>
-			<xs:extension base="number-or-empty">
+			<xs:extension base="xs:double">
 				<xs:attribute name="errorminus" type="xs:double" use="optional"/>
 				<xs:attribute name="errorplus" type="xs:double" use="optional"/>
 				<xs:attribute name="lowerlimit" type="xs:double" use="optional"/>
