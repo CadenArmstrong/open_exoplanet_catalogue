@@ -288,7 +288,7 @@ if issues > 0:
     errorcode = 3
 else:
     print "No issues found."
-
+import generate
 print "Generating CSV aliases.csv"
 
 sys.exit(errorcode)
